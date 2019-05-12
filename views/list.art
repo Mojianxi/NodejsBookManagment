@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模板</title>
+</head>
+<body>
+	<div>{{title}}</div>
+	<div>
+		<ul>
+			{{each list}}
+				<li>{{$value}}</li>
+			{{/each}}
+		</ul>
+	<div>
+</body>
+</html>
